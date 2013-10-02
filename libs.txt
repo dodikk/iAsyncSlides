@@ -1,0 +1,8 @@
+[js] https://github.com/caolan/async
+
+https://github.com/ReactiveCocoa/ReactiveCocoa
+https://github.com/AFNetworking/AFNetworking
+
+https://code.google.com/p/gtm-http-fetcher/
+https://github.com/heavylifters/HLDeferred-objc
+https://github.com/berzniz/Sequencer

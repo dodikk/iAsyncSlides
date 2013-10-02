@@ -1,0 +1,5 @@
+https://twitter.com/search?q=Block%20enumerators%20%2B%20flatdacted%20URL%20sessions%20%2B%20SQLite&src=typd
+
+
+
+Rather than using mutable variables which are replaced and modified in-place, RAC provides signals (represented by RACSignal) that capture present and future values.

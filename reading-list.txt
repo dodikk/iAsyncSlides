@@ -1,0 +1,19 @@
+http://www.objc.io/issue-2/common-background-practices.html
+
+
+[!!!] http://www.techsfo.com/blog/2013/08/managing-nested-asynchronous-callbacks-in-objective-c-using-reactive-cocoa/
+
+
+http://tirania.org/blog/archive/2013/Aug-15.html
+http://www.slideshare.net/Xamarin/xamarin-asyncwebinar-2013
+https://github.com/xamarin/mobile-samples/tree/master/AsyncAwait
+
+
+https://twitter.com/devongovett/status/367824283613270016
+
+
+http://hfboards.hockeysfuture.com/showthread.php?t=1311713
+Owning a smartphone without a data plan is like owning a computer without internet. 
+
+
+http://9to5mac.com/2013/07/11/could-you-survive-four-days-without-apps-heres-what-happened-when-200-people-tried/

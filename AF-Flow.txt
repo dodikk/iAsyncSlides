@@ -1,0 +1,36 @@
+objective-c nested asynchronous blocks
+
+
+
+http://stackoverflow.com/questions/13309686/how-to-do-structured-programming-using-blocks-in-objective-c
+When using methods which return blocks they can be very convenient. However, when you have to string a few of them together it gets messy really quickly
+
+for instance, you have to call 4 URLs in succession:
+
+[remoteAPIWithURL:url1 success:^(int status){
+    [remoteAPIWithURL:url2 success:^(int status){
+        [remoteAPIWithURL:url3 success:^(int status){
+            [remoteAPIWithURL:url2 success:^(int status){
+            //succes!!!
+            }];
+        }];
+    }];
+}];
+
+bit.ly/1bLdN59
+
+
+
+http://stackoverflow.com/questions/10915927/better-asynchronous-control-flow-with-objective-c-blocks
+I'm using AFNetworking for asynchronous calls to a web service. Some of these calls must be chained together, where the results of call A are used by call B which are used by call C, etc.
+AFNetworking handles results of async calls with success/failure blocks set at the time the operation is created:
+
+
+It was not uncommon when using AFNetworking in Gowalla to have calls chained together in success blocks.
+My advice would be to factor the network requests and serializations as best you can into class methods in your model. Then, for requests that need to make sub-requets, you can call those methods in the success block.
+// by @mattt
+
+
+
+http://stackoverflow.com/questions/14435931/ios-afnetworking-enqueue-two-json-operations-and-then-compare-the-returned-nsar
+batch async operations
